@@ -1,9 +1,9 @@
 ### You must install the following software before applicationg running
-Redis must be installed and running.
-Node.js must be installed
-uuid must be installed
-node-schedule must be installed
-or execute command "npm install" to do the same. 
+* Redis must be installed and running.
+* Node.js must be installed.
+* uuid must be installed.
+* node-schedule must be installed
+* or execute command "npm install" to do the same. 
 
 ## Start:
 
