@@ -1,0 +1,17 @@
+{
+    "apps":[{
+        "name": "keySpace_client",
+        "script": "src/client.js",
+        "watch": false,
+        "cwd": ".",
+        "log_file": "log/access.log",
+        "error_file": "log/error.log",
+        "out_file": "log/out.log",
+        "env_dev": {
+            "NODE_ENV": "dev",
+            "DATABASE":"keySpace",
+            "RDS_PORT": "6380",
+            "RDS_PWD": "123456"
+        }
+    }]
+}

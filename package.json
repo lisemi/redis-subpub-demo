@@ -1,0 +1,22 @@
+{
+  "name": "redis-sub-pub-demo",
+  "version": "1.0.0",
+  "description": "api for senming",
+  "main": "src/service.js",
+  "scripts": {
+    "test_server": "node src/service.js",
+    "test_client": "node src/client.js",
+    "server": "pm2 startOrRestart server.json --env dev",
+    "client": "pm2 startOrRestart client.json --env dev"
+  },
+  "dependencies": {
+    "redis": "^2.8.0",
+    "uuid": "^3.3.3",
+    "node-schedule": "^1.3.2"
+  },
+  "keywords": [
+    "bitrice"
+  ],
+  "author": "senming",
+  "license": "MIT"
+}
